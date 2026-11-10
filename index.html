@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f3eb">
+  <meta name="description" content="A little place for all our memories. Our story, held close.">
+  <title>Our Little Universe | A Journey of Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/animations.css?v=2">
+  <link rel="stylesheet" href="css/responsive.css?v=2">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="js/config.js" defer></script>
+  <script src="js/timeline.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+  <script src="js/music.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body class="is-loading">
+  <a class="skip-link" href="#main-content">Skip to our story</a>
+  <div class="loader" id="loader" aria-label="Loading our memories" role="status">
+    <span class="loader-mark" aria-hidden="true">♡</span>
+    <span class="loader-label">Gathering our little moments</span>
+  </div>
+
+  <div class="intro" id="intro" aria-labelledby="intro-title">
+    <div class="intro-grain" aria-hidden="true"></div>
+    <span class="petal petal-one" aria-hidden="true">✿</span>
+    <span class="petal petal-two" aria-hidden="true">✿</span>
+    <span class="petal petal-three" aria-hidden="true">✿</span>
+    <div class="intro-content">
+      <p class="eyebrow intro-eyebrow">A keepsake made just for us</p>
+      <h1 id="intro-title">Our Little<br><em>Universe</em></h1>
+      <p class="intro-subtitle">A little place for all our memories.</p>
+      <p class="intro-date" data-config="anniversary">14 February 2022</p>
+      <button class="text-button intro-button" id="enter-site" type="button">
+        <span>Open our memories</span><i data-lucide="arrow-up-right" aria-hidden="true"></i>
+      </button>
+    </div>
+    <p class="intro-footnote">Made with love, for <span data-config="partnerName">my favorite person</span></p>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Our Little Universe, home">A<span>·</span>S</a>
+    <button class="menu-toggle icon-button" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+      <i data-lucide="menu" aria-hidden="true"></i>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#story">Our story</a>
+      <a href="#gallery">Memories</a>
+      <a href="#timeline">The years</a>
+      <a href="#apology">Kata maaf</a>
+      <a href="#letter">A little letter</a>
+      <a class="nav-music" href="#song"><i data-lucide="music-2" aria-hidden="true"></i> Our song</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> The story of <span data-config="coupleNames">you & me</span></p>
+        <h2 id="hero-title">You &amp; Me,<br><em>In Every</em><br>Lifetime.</h2>
+        <p class="hero-note">Every little moment with you becomes my favorite memory.</p>
+        <a class="round-link" href="#story" aria-label="Scroll to our story"><i data-lucide="arrow-down" aria-hidden="true"></i></a>
+      </div>
+      <div class="hero-visual reveal reveal-delay-1">
+        <div class="hero-image-wrap">
+          <img class="hero-image" data-image="heroImage" src="assets/images/ari&amp;wiwit1.jpeg" alt="A couple sharing a quiet moment together" fetchpriority="high">
+          <span class="image-index">01 / A little forever</span>
+        </div>
+        <span class="hero-stamp" aria-hidden="true">our<br>kind of<br>magic <span>✳</span></span>
+        <span class="hero-caption">The world, a little softer<br>when I'm beside you.</span>
+      </div>
+      <a class="scroll-cue" href="#story"><span>Scroll to explore</span><i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+      <span class="hero-side-note" aria-hidden="true">A JOURNEY OF US · EST. 2022</span>
+    </section>
+
+    <section class="story section-shell section-space" id="story" aria-labelledby="story-title">
+      <div class="section-kicker reveal"><span>01</span><span class="kicker-rule"></span><span>Where it began</span></div>
+      <div class="story-layout">
+        <div class="story-image-column reveal">
+          <figure class="story-photo">
+            <img data-image="storyImage" src="assets/images/ari&amp;wiwit2.jpeg" alt="Two people laughing together outdoors" loading="lazy">
+            <figcaption class="photo-note">The beginning of everything</figcaption>
+          </figure>
+          <span class="scribble-heart" aria-hidden="true">♡</span>
+        </div>
+        <div class="story-copy reveal reveal-delay-1">
+          <p class="eyebrow">It started with a hello</p>
+          <h2 id="story-title">How It<br><em>All Started</em></h2>
+          <p class="story-date" data-config="firstMet">The day we met · 14 February 2022</p>
+          <p class="story-text" data-config="story">Somehow, in the middle of an ordinary day, I found the person who would make every day feel a little more like home. I didn't know it then, but the best part of my story had just begun.</p>
+          <a class="underlined-link" href="#timeline">Turn the page <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-space" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-shell">
+        <div class="section-kicker reveal"><span>02</span><span class="kicker-rule"></span><span>Little moments, kept close</span></div>
+        <div class="gallery-heading reveal">
+          <div><p class="eyebrow">A collection of us</p><h2 id="gallery-title">The days I want<br><em>to remember.</em></h2></div>
+          <p class="gallery-intro">A few frames from a life that keeps getting sweeter. Click any photograph to take a closer look.</p>
+        </div>
+        <div class="memory-grid" id="memory-grid" aria-live="polite"></div>
+        <p class="gallery-endnote"><span>♡</span> Every ordinary day, extraordinary with you <span>♡</span></p>
+      </div>
+    </section>
+
+    <section class="timeline-section section-space" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-shell">
+        <div class="section-kicker reveal"><span>03</span><span class="kicker-rule"></span><span>Somewhere along the way</span></div>
+        <div class="timeline-intro reveal"><p class="eyebrow">Our little milestones</p><h2 id="timeline-title">A timeline of<br><em>you and me.</em></h2></div>
+        <div class="timeline-list" id="timeline-list"></div>
+      </div>
+    </section>
+
+    <section class="reasons-section section-space" id="reasons" aria-labelledby="reasons-title">
+      <div class="section-shell reasons-shell">
+        <div class="section-kicker reveal"><span>04</span><span class="kicker-rule"></span><span>The little things</span></div>
+        <p class="eyebrow reveal">A list with no ending</p>
+        <h2 id="reasons-title" class="reasons-title reveal">Little things<br><em>I love about you.</em></h2>
+        <ol class="reasons-list" id="reasons-list"></ol>
+        <p class="reasons-after reveal">And a thousand more I haven't found the words for yet.</p>
+      </div>
+    </section>
+
+    <section class="apology-section section-space" id="apology" aria-labelledby="apology-title">
+      <div class="section-shell apology-shell">
+        <div class="section-kicker reveal"><span>05</span><span class="kicker-rule"></span><span>Dari lubuk hatiku</span></div>
+        <div class="apology-layout">
+          <div class="apology-card reveal">
+            <span class="apology-badge">Untuk Kamu, Sayang</span>
+            <h2 id="apology-title" class="apology-title" data-config="apologyHeading">Maafkan Aku,<br><em>Tentang Kejadian Tadi.</em></h2>
+            <div class="apology-divider"><span>♡</span></div>
+            <p class="apology-message" data-config="apologyMessage">
+              Aku minta maaf ya untuk pertengkaran kita tadi... Aku sadar aku salah, mungkin terbawa emosi, atau ada kata-kataku yang bikin kamu sakit hati dan sedih. Sama sekali nggak ada niat sedikit pun di hatiku untuk menyakiti kamu. Melihat kamu sedih atau marah karena aku adalah hal yang paling bikin aku menyesal.<br><br>
+              Hubungan kita, senyum kamu, dan kebersamaan kita jauh lebih berharga dari ego atau perdebatan apapun. Terima kasih sudah selalu sabar dan pengertian sama aku. Janji, aku bakal belajar jadi lebih baik lagi buat kamu. Baikan lagi ya sayang? ♡
+            </p>
+            <div class="apology-action">
+              <button class="text-button apology-btn" id="forgive-btn" type="button">
+                <span>Maafin aku ya? ♡</span><i data-lucide="heart" aria-hidden="true"></i>
+              </button>
+              <p class="apology-status" id="apology-status" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="apology-photo-wrap reveal reveal-delay-1">
+            <figure class="apology-photo">
+              <img src="assets/images/ari&amp;wiwit15.jpeg" alt="Ari dan Wiwit tersenyum bersama" loading="lazy">
+              <figcaption>Semoga senyum ini nggak hilang karena aku ♡</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter-section section-space" id="letter" aria-labelledby="letter-title">
+      <div class="section-shell letter-shell">
+        <div class="section-kicker reveal"><span>06</span><span class="kicker-rule"></span><span>From my heart to yours</span></div>
+        <div class="letter-heading reveal"><p class="eyebrow">Whenever you need a reminder</p><h2 id="letter-title">A little something<br><em>for you.</em></h2></div>
+        <div class="letter-stage reveal">
+          <div class="envelope" id="envelope">
+            <div class="envelope-back"></div>
+            <article class="letter-paper" id="letter-paper" aria-label="A letter for you">
+              <p class="letter-date" data-config="letterDate">For you, always</p>
+              <p class="letter-body" data-config="letter">My love, thank you for making the small things feel golden. For being my calm, my laughter, and my favorite place to come home to. If I could choose again, in every version of this life, I would still find my way to you.</p>
+              <p class="letter-signoff">All my love,<br><span data-config="yourName">Yours, always</span> <span class="signature-heart">♡</span></p>
+            </article>
+            <div class="envelope-front"><span class="envelope-seal" aria-hidden="true">♡</span></div>
+            <div class="envelope-flap"></div>
+          </div>
+          <button class="text-button letter-button" id="letter-button" type="button" aria-expanded="false" aria-controls="letter-paper"><span>Open my letter</span><i data-lucide="heart" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="song-section section-space" id="song" aria-labelledby="song-title">
+      <div class="section-shell song-layout">
+        <div class="song-copy reveal"><div class="section-kicker"><span>07</span><span class="kicker-rule"></span><span>Our little soundtrack</span></div><p class="eyebrow">Press play, think of us</p><h2 id="song-title">A song that<br><em>feels like home.</em></h2><p class="song-note">Some songs keep a little piece of a moment inside them. This one is ours.</p></div>
+        <div class="player reveal reveal-delay-1" id="music-player">
+          <div class="album-art-wrap"><img id="album-art" src="assets/images/ari&amp;wiwit14.jpeg" alt="Starry night sky album artwork" loading="lazy"><span class="vinyl-disc" aria-hidden="true"></span></div>
+          <div class="player-content">
+            <p class="eyebrow">Our song</p>
+            <h3 id="track-title">La Vie En Rose</h3>
+            <p class="track-artist" id="track-artist">Édith Piaf</p>
+            <audio id="audio-track" preload="auto" loop autoplay></audio>
+            <div class="progress-row"><span id="current-time">0:00</span><input id="song-progress" type="range" min="0" max="100" value="0" aria-label="Song progress"><span id="duration">0:00</span></div>
+            <div class="player-controls">
+              <button class="icon-button player-play" id="play-toggle" type="button" aria-label="Play our song"><i data-lucide="play" aria-hidden="true"></i></button>
+              <span class="player-hint" id="player-hint">Add your song file in assets/music</span>
+              <label class="volume-control" for="volume-range"><i data-lucide="volume-2" aria-hidden="true"></i><input id="volume-range" type="range" min="0" max="1" value="0.75" step="0.01" aria-label="Volume"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section" id="final" aria-labelledby="final-title">
+      <div class="final-image" data-image="finalImage" role="img" aria-label="A couple together at golden hour"></div>
+      <div class="final-wash"></div>
+      <div class="final-content section-shell reveal">
+        <p class="eyebrow">To my favorite person</p>
+        <h2 id="final-title">Thank you for being<br>my favorite part<br><em>of life.</em></h2>
+        <p class="final-date" data-config="anniversary">01 November 2026</p>
+        <p class="forever-note">Our story is still being written...</p>
+        <a class="final-button" href="#top"><span>Back to the beginning</span><i data-lucide="arrow-up" aria-hidden="true"></i></a>
+      </div>
+      <div class="heart-field" id="heart-field" aria-hidden="true"></div>
+      <span class="final-side-note">WITH ALL MY LOVE · ALWAYS</span>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#top">O<span>·</span>U</a><p>A tiny universe, made of us.</p><span>© <span id="year"></span> · <span data-config="coupleNames">you & me</span></span></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Memory photo viewer">
+    <button class="lightbox-close icon-button" id="lightbox-close" type="button" aria-label="Close photo"><i data-lucide="x" aria-hidden="true"></i></button>
+    <button class="lightbox-arrow lightbox-prev icon-button" id="lightbox-prev" type="button" aria-label="Previous photo"><i data-lucide="arrow-left" aria-hidden="true"></i></button>
+    <figure class="lightbox-figure"><img id="lightbox-image" alt=""><figcaption><span id="lightbox-caption"></span><span id="lightbox-date"></span></figcaption></figure>
+    <button class="lightbox-arrow lightbox-next icon-button" id="lightbox-next" type="button" aria-label="Next photo"><i data-lucide="arrow-right" aria-hidden="true"></i></button>
+  </dialog>
+
+  <button class="back-to-top icon-button" id="back-to-top" type="button" aria-label="Back to top"><i data-lucide="arrow-up" aria-hidden="true"></i></button>
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+</body>
+</html>
